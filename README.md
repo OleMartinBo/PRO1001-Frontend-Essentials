@@ -7,8 +7,8 @@ This main README contains all the exercises for the Frontend Essentials course. 
 > ### PRO1001 Work Requirement 1 - Accessible Introduction Page
 > Submission deadline: 17.09.2026 <br>
 > - [x] ~~Assignment complete~~ <br>
-> [Work Requirement 4 folder](https://github.com/OleMartinBo/PRO1001-Frontend-Essentials/blob/517c6f8ab10a4dc46cc398e4e3df7557dde26dae/PRO1001WorkRequirement1)<br>
-> [README for Work Requirement 1](https://github.com/OleMartinBo/PRO1001-Frontend-Essentials/blob/517c6f8ab10a4dc46cc398e4e3df7557dde26dae/PRO1001WorkRequirement1/README.md)<br>
+> [Work Requirement 1 folder](https://github.com/OleMartinBo/PRO1001-Frontend-Essentials/blob/bf54f2cb0592fd4fe4448ffd52b94d9e44de436c/PRO1001WorkRequirement1)<br>
+> [README for Work Requirement 1](https://github.com/OleMartinBo/PRO1001-Frontend-Essentials/blob/bf54f2cb0592fd4fe4448ffd52b94d9e44de436c/PRO1001WorkRequirement1/README_WR1.md)<br>
 > <br>
 --------------------------------
 > ### PRO1001 Work Requirement 2 - GitHub Practice: Flexbox Page with Form
