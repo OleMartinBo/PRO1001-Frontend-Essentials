@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>WebShop</title>
 </head>
 <body>
 
     <!--Navigation-->
-    <header>
-        <h1>WebShop</h1>
+    <header class="headerSection">
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
+                <li>WebShop</li>
+                <li><a href="#homeSection">Home</a></li>
                 <li><a href="">Products</a></li>
                 <li><a href="">About us</a></li>
                 <li><a href="">Contact</a></li>
@@ -23,18 +24,20 @@
     <!--Main Content-->
     <main>
         <!--Home Section-->
-        <section>
-            <h2>Welcome to WebShop</h2>
+        <section class="homeSection">
+            <h1>Welcome to WebShop</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="">Contact us!</a>
         </section>
 
         <!--Products Section-->
-        <section>
+        <section class="productsSection">
+            <h2>Our products</h2>
              <!--Products columns-->
-            <div>
+            <div class="productsColumns">
 
                 <!--Product column 1-->
-                <div>
+                <div class="productsColumn">
                     <img src="" alt="Prod 1">
                     <h3>Lorem ipsum</h3>
                     <ul>
@@ -45,7 +48,7 @@
                 </div>
 
                 <!--Product column 2-->
-                <div>
+                <div class="productsColumn">
                     <img src="" alt="Prod 2">
                     <h3>Lorem ipsum</h3>
                     <ul>
@@ -56,7 +59,7 @@
                 </div>
 
                 <!--Product column 3-->
-                <div>
+                <div class="productsColumn">
                     <img src="" alt="Prod 3">
                     <h3>Lorem ipsum</h3>
                     <ul>
@@ -71,7 +74,7 @@
         </section>
 
         <!--About Section-->
-        <section>
+        <section class="aboutSection">
             <h2>About WebShop</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Fugit, deserunt neque inventore magni itaque pariatur asperiores id fugiat fuga! 
@@ -79,7 +82,7 @@
         </section>
 
         <!--Contact Section-->
-        <section>
+        <section class="contactSection">
             <!--Contact header-->
             <h2>Contact Us</h2>
 
@@ -130,7 +133,7 @@
     </main>
 
     <!--Footer-->
-    <footer>
+    <footer class="footerSection">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </footer>
 
