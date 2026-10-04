@@ -7,8 +7,11 @@ Exercise requirements
 * Build a simple page that uses Flexbox and includes a basic form.
 * Submission deadline: 05.10.2026
 --------------------------------
-
-
+> ### Page theme
+>Website that sells web solutions.
+It should include a welcome section, a product section showcasing various options, an "About" section, and a contact area where the client can submit their specific requirements via email. Finally, include a footer.<br>
+><br>
+--------------------------------
 > ### How to run Flexbox Page with Form
 >1. Clone Repository or copy code
 >2. Install Live Server
@@ -27,5 +30,11 @@ Exercise requirements
 > | |__styles.css
 > |-Images/
 > | |__Image
+> |-Documents/
+> | |__wireframe for wr2
 >```
 --------------------------------
+> ### Wireframe for Work Requirement 2
+> Made a simple wireframe for a simple visual blueprint that outlines the skeletal structure, layout, and content placement of the website before coding.
+> ![GitHub Logo](/PRO1001WorkRequirement2/Documents/wireframe%20for%20wr2.png)
+
