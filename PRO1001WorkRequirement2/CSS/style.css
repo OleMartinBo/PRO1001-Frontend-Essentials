@@ -17,6 +17,7 @@ h1 {
 h2 {
     color: #2C2C2C;
     font-size: 28px;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -252,6 +253,8 @@ Main sections
     text-decoration: none;
     margin: 24px auto;
     cursor:pointer;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 .contactSection button:hover{
