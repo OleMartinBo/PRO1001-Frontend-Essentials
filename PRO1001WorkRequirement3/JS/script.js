@@ -13,7 +13,6 @@ console.log(todoList)
 let todos = [];
 
 //Functions
-
 addBtn.addEventListener("click", addTodos);
 
 function addTodos(){
@@ -21,17 +20,41 @@ function addTodos(){
     const newTodo = todoInput.value;
     if (newTodo) {
         todos.push(newTodo);
-        todoInput.value = " ";
+        todoInput.value = "";
+        renderList();
     }
 
 };
+//add test
+console.log(todos);
 
-console.log(todos)
 
-function deletTodos () {
-    
+function deletTodos() {
+   
 };
 
-function renderList () {
+/* 
+Add the li to the ul in html
+creats a new btn to delete todos
+Use splice where first parameter (index) defines the position 
+where new elements should be added (spliced in).The second parameter 
+(1) defines how many elements should be removed (w3schools).
+*/
+function renderList() {
+    todoList.innerHTML ="";
+    todos.forEach((todo, index) => {
+        const li =document.createElement("li");
+        li.textContent = todo;
+        todoList.appendChild(li);
 
+        const deletBtn = document.createElement("button");
+        deletBtn.textContent = "Delet todo";
+        deletBtn.addEventListener ("click", () =>{
+            todos.splice(index, 1);
+            renderList();
+        })
+        li.appendChild(deletBtn)
+        todoList.appendChild(li);
+    });
+    
 };
