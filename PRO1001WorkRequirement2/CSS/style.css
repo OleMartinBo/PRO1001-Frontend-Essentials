@@ -38,6 +38,13 @@ a {
     text-decoration: none;
 }
 
+label {
+    color: #2C2C2C;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 14px auto;
+}
+
 /* 
 Header sections
 */
@@ -73,13 +80,14 @@ Header sections
 
 .headerSection a{
     color: #2C2C2C;
+    padding: 10px;
     text-transform: uppercase;
 }
 .headerSection a:hover{
     color: #2C2C2C;
     background-color: #00FF85;
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
     transition: 0.2s ease-in-out;
 }
 
@@ -89,33 +97,38 @@ Main sections
 ---------------
 */
 
+
 .homeSection{
     padding: 10px;
-    margin: 24px 24px;
+    margin: 24px auto;
     text-align: center;
+    width: 100%;
+    max-width: 1080px;
 }
 
 .homeSection p {
-    margin-top: 2400px auto;
+    font-size: 24px;
+    margin: 48px auto;
 }
 
 .homeSection a{
     color: #2C2C2C;
     padding: 10px; 
-    border: 1px solid #00FF85;
     background-color: #00FF85;
-    border-radius: 6px;
+    border-radius: 5px;
     text-decoration: none;
-    margin-top: 240px auto;
+    margin: 12px auto;
+    display: inline-block;
 }
 
 .homeSection a:hover {
     color: #00FF85;
-    border: 1px solid #00FF85;
     background-color: #2C2C2C;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.2s ease-in-out;
 }
-
-
 
 
 /* 
@@ -125,6 +138,12 @@ Main sections
     padding: 10px;
     margin: 48px auto;
     text-align: center;
+    width: 100%;
+    max-width: 1080px;
+}
+
+.productsSection h2{
+    text-transform: uppercase;
 }
 
 .productsColumns{
@@ -140,20 +159,25 @@ Main sections
     background-color: #F0F0F0;
     padding: 0px;
     border-radius: 10px 10px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .productsColumn h3{
-  margin: 14px 14px;
+    text-transform: uppercase;
+    margin: 14px 14px;
 }
 
 .productsColumn p{
-  margin: 14px 14px;
+    font-weight: 600;
+    margin: 14px 14px;
+    font-size: 16px;
+
 }
 .productsColumn li{
-  list-style: circle;
-  margin: 0px;
-  padding: 0px;
+    list-style: circle;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
 }
 
 .productsColumn img{
@@ -173,41 +197,95 @@ Main sections
     padding: 10px;
     margin: 14px auto;
     text-align: center;
+    width: 100%;
+    max-width: 1080px;
+}
+
+.aboutSection p{
+    font-size: 18px;
+    text-align: start;
+    line-height: 1.75;
 }
 
 /* 
 <--Contact section-->
 */
-
 .contactSection{
-    background-color: aqua;
-    border: 1px solid black;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 14px auto;
-    text-align: center;
-    
+    width: 100%;
+    max-width: 1080px;
 }
 
 .contactSection form{
-    background-color: aqua;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    width: 50%;
+    padding: 10px;
+}
+
+.contactSection input{
+    padding: 14px;
+    border-radius: 10px;
+    border: none ;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);    
 }
 
 .contactSection textarea{
     resize: none;
-    width: 100%;
-    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
+.contactSection button{
+    color: #2C2C2C;
+    padding: 10px; 
+    background-color: #00FF85;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    margin: 24px auto;
+    cursor:pointer;
+}
+
+.contactSection button:hover{
+    color: #00FF85;
+    background-color: #2C2C2C;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.2s ease-in-out;
+}
+
+.contactSection input:focus{
+    border: none;
+    background-color: #f1f1f1;
+    box-shadow: 0 0px 15px rgba(73, 192, 30, 0.9);
+    transition: 0.2s ease-in-out;
+}
+.contactSection textarea:focus{
+    border: none;
+    background-color: #f1f1f1;
+    box-shadow: 0 0px 15px rgba(73, 192, 30, 0.9);
+    transition: 0.2s ease-in-out;
+}
+
+/* 
+<--Footer section-->
+*/
 .footerSection{
-    background-color: aqua;
-    border: 1px solid black;
+    background-color: #1C1C1C;
     padding: 10px;
-    margin: 14px auto 0px auto;
     margin-bottom: 0px;
+    text-align: center;
+}
+
+.footerSection p{
+    color: #F0F0F0;
 }
