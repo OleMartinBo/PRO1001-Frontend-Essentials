@@ -9,7 +9,7 @@ let todoList  = document.getElementById("todo-list")
 console.log(todoList)
 
 
-//Array for todo list
+//Array for the todo list
 let todos = [];
 
 //Functions
@@ -44,17 +44,27 @@ function renderList() {
     todoList.innerHTML ="";
     todos.forEach((todo, index) => {
         const li =document.createElement("li");
-        li.textContent = todo;
-        todoList.appendChild(li);
+        const span =document.createElement("span");
+        li.className = "todo-item";
+        span.className = "todo-text";
+        span.textContent = todo;
+       
 
         const deletBtn = document.createElement("button");
+        deletBtn.className = "delete-button";
         deletBtn.textContent = "Delet todo";
+
         deletBtn.addEventListener ("click", () =>{
             todos.splice(index, 1);
             renderList();
-        })
-        li.appendChild(deletBtn)
+        });
+
+        li.appendChild(span);
+        li.appendChild(deletBtn);
+
         todoList.appendChild(li);
+
     });
     
 };
+
