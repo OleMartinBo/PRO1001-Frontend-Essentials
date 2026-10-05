@@ -13,36 +13,24 @@ console.log(todoList)
 let todos = [];
 
 //Functions
-addBtn.addEventListener("click", addTodos);
-
-function addTodos(){
-    
-    const newTodo = todoInput.value;
-    if (newTodo) === "" {
-        todos.push(newTodo);
-        todoInput.value = "";
-        renderList();
-    }
-
-};
-
-
 function createTodoElement(todo) {
     // TODO: Implement this function
     // 1. Create a new <li> element
     const li = document.createElement("li");
     // 2. Add the 'todo-item' class to the <li>
-     li.className = "todo-item";
+    li.className = "todo-item";
     // 3. Create a <span> for the todo text
-    const span =document.createElement("span");
+    const span = document.createElement("span");
     // 4. Set the span's text content to todo.text
-     span.className = "todo-text";
+    span.textContent = todo;
+    span.className = "todo-text";
     // 5. Create a delete button
     const deletBtn = document.createElement("button");
+    deletBtn.className = "delete-button";
+    deletBtn.textContent = "Delet todo";
     // 6. Add a click event listener to the delete button that calls deleteTodo(todo.id)
     deletBtn.addEventListener ("click", () =>{
-        todos.splice(index, 1);
-        renderList();
+        deleteTodo(todo.id)
     });
 
     // 7. Append the span and delete button to the <li>
@@ -56,13 +44,22 @@ function createTodoElement(todo) {
 function renderTodos() {
     // TODO: Implement this function
     // 1. Clear the existing list
+    todoList.innerHTML ="";
+
     // 2. Loop through the todos array
+    todos.forEach((todo, index) => {
+
     // 3. For each todo, call createTodoElement(todo) and append the result to the todo list
-}
+    const todoElement = createTodoElement(todo)
+        todoList.appendChild(todoElement);
+    });
+};
 
 // Add todo
+
+addBtn.addEventListener("click", addTodo);
 function addTodo() {
-    
+
     // TODO: Implement this function
     // 1. Get the text from the input field
     const newTodo = todoInput.value.trim();
@@ -74,20 +71,34 @@ function addTodo() {
         const todo = {
             id: id,
             text: newTodo 
-        }
+        };
 
         // b. Add the new todo object to the todos array
         id++;
-        todos.push(newTodo);
+        todos.push(todo);
 
         // c. Clear the input field
         todoInput.value = "";
 
         // d. Call renderTodos() to update the display
-        renderTodos()
+        renderTodos();
     };
+};
+
+// Delete todo
+function deleteTodo(id) {
+    // TODO: Implement this function
+    // 1. Remove the todo with the given id from the todos array
+    // 2. Call renderTodos() to update the display
 }
 
+// TODO: Add a click event listener to the add button that calls addTodo
+
+// TODO: Add a keypress event listener to the input field 
+// that calls addTodo when the Enter key is pressed
+
+// Initial render
+renderTodos();
 
 /* 
 Add the li to the ul in html
@@ -124,3 +135,4 @@ function renderList() {
     
 };
 
+console.log(todos)
