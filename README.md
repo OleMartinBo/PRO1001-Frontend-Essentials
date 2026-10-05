@@ -13,9 +13,9 @@ This main README contains all the exercises for the Frontend Essentials course. 
 --------------------------------
 > ### PRO1001 Work Requirement 2 - GitHub Practice: Flexbox Page with Form
 > Submission deadline: 05.10.2026 <br>
-> - [ ] Assignment complete <br>
-> [Work Requirement 2 folder]()<br>
-> [README for Work Requirement 2]()<br>
+> - [x] Assignment complete <br>
+> [Work Requirement 2 folder](https://github.com/OleMartinBo/PRO1001-Frontend-Essentials/blob/ee59d90d6922483e8ef3f0e181f0f04554bbdc88/PRO1001WorkRequirement2)<br>
+> [README for Work Requirement 2](https://github.com/OleMartinBo/PRO1001-Frontend-Essentials/blob/ee59d90d6922483e8ef3f0e181f0f04554bbdc88/PRO1001WorkRequirement2/README_WR2.md)<br>
 > <br>
 --------------------------------
 > ### PRO1001 Work Requirement 3 - Interactive To-Do List
