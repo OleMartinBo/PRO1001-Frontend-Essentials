@@ -18,7 +18,7 @@ It should include a welcome section, a product section showcasing various option
 >3. Go to [index.htlm](index.htlm)
 >4. Click "Go Live" in the bottom-right corner of VS Code.
 >
-> ![Alt Text](https://media.geeksforgeeks.org/wp-content/uploads/20221201183647/Enableliveserver4.jpg)
+> ![Go live](https://media.geeksforgeeks.org/wp-content/uploads/20221201183647/Enableliveserver4.jpg)
 --------------------------------
 > ### Folder/Repository structure
 >``` text
@@ -36,5 +36,9 @@ It should include a welcome section, a product section showcasing various option
 --------------------------------
 > ### Wireframe for Work Requirement 2
 > Made a simple wireframe for a simple visual blueprint that outlines the skeletal structure, layout, and content placement of the website before coding.
-> ![GitHub Logo](/PRO1001WorkRequirement2/Documents/wireframe%20for%20wr2.png)
+> ![Wireframe](/PRO1001WorkRequirement2/Documents/wireframe%20for%20wr2.png)
+
+> ### Colors and font Work Requirement 2
+> https://www.vev.design/blog/dark-mode-website-color-palette/ 
+> https://op.europa.eu/en/web/webguide/typography#line-heights
 
