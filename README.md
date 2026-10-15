@@ -20,9 +20,9 @@ This main README contains all the exercises for the Frontend Essentials course. 
 --------------------------------
 > ### PRO1001 Work Requirement 3 - Interactive To-Do List
 > Submission deadline: 21.10.2026 <br>
-> - [ ] Assignment complete <br>
-> [Work Requirement 3 folder]()<br>
-> [README for Work Requirement 3]()<br>
+> - [x] Assignment complete <br>
+> [Work Requirement 3 folder](https://github.com/OleMartinBo/PRO1001-Frontend-Essentials/blob/c0dfce273f9c4b9240b73ef2d656cd0556ac4eb8/PRO1001WorkRequirement3)<br>
+> [README for Work Requirement 3](https://github.com/OleMartinBo/PRO1001-Frontend-Essentials/blob/c0dfce273f9c4b9240b73ef2d656cd0556ac4eb8/PRO1001WorkRequirement3/README_WR3.md)<br>
 > <br>
 --------------------------------
 > ### PRO1001 Work Requirement 4 - Product Ratings Dashboard
