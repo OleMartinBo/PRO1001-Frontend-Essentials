@@ -2,11 +2,11 @@ PRO1001 Work Requirement 3 - Interactive To-Do List
 ================================
 Exercise requirements and Project Overview
 --------------------------------
-``` text
-For this task, you will create a small interactive to-do list application using JavaScript. You will build on provided starter HTML and CSS and focus on adding JavaScript functionality. The goal is to practice DOM manipulation, event handling, and working with arrays and object 
+* For this task, you will create a small interactive to-do list application using JavaScript. You will build on provided starter HTML and CSS and focus on adding JavaScript functionality. The goal is to practice DOM manipulation, event handling, and working with arrays and object 
 
-Build a simple to-do list application. The HTML and CSS structure are already provided in the Interactive To-Do List  template on CodePen. Your job is to implement the JavaScript logic that allows users to add, display, and delete to-dos.
-```
+* Build a simple to-do list application. The HTML and CSS structure are already provided in the Interactive To-Do List  template on CodePen. Your job is to implement the JavaScript logic that allows users to add, display, and delete to-dos.
+* Submission deadline: 21.10.2026
+
 --------------------------------
  ### How to run Interactive To-Do List
 1. Clone Repository or copy code

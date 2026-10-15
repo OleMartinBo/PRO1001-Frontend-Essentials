@@ -1,11 +1,9 @@
 // DOM elements
-let addBtn  = document.getElementById("add-button")
+const addBtn  = document.getElementById("add-button")
 
-let todoInput  = document.getElementById("todo-input")
+const todoInput  = document.getElementById("todo-input")
 
-let todoList  = document.getElementById("todo-list")
-
-
+const todoList  = document.getElementById("todo-list")
 
 //Array for the todo list
 let todos = [];
@@ -29,18 +27,18 @@ function createTodoElement(todo) {
     span.className = "todo-text";
 
     // 5. Create a delete button
-    const deletBtn = document.createElement("button");
-    deletBtn.className = "delete-button";
-    deletBtn.textContent = "Delet todo";
+    const deleteBtn = document.createElement("button");
+    deleteBtn.className = "delete-button";
+    deleteBtn.textContent = "Delete todo";
 
     // 6. Add a click event listener to the delete button that calls deleteTodo(todo.id)
-    deletBtn.addEventListener ("click", () =>{
+    deleteBtn.addEventListener ("click", () =>{
         deleteTodo(todo.id)
     });
 
     // 7. Append the span and delete button to the <li>
     li.appendChild(span);
-    li.appendChild(deletBtn);
+    li.appendChild(deleteBtn);
 
     // 8. Return the <li> element
     return li;
@@ -53,7 +51,7 @@ function renderTodos() {
     todoList.innerHTML ="";
 
     // 2. Loop through the todos array
-    todos.forEach((todo, index) => {
+    todos.forEach((todo) => {
 
     // 3. For each todo, call createTodoElement(todo) and append the result to the todo list
     const todoElement = createTodoElement(todo)
@@ -112,5 +110,3 @@ todoInput.addEventListener("keypress", (event) => {
 
 // Initial render
 renderTodos();
-
-console.log(todos)
